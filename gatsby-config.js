@@ -12,6 +12,8 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
+    
+  pathPrefix: "/reponame",
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
