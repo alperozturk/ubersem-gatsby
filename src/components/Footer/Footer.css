@@ -1,0 +1,20 @@
+.footer {
+    background-color: #3d4045;
+    padding: 3%;
+}
+
+.footer .heading{
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+}
+
+.footer .sub-text{
+    color: #808080;
+    font-size: 14px;
+}
+.footer svg{
+    margin-right: 5px;
+    
+}

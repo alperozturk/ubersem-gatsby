@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:display=swap');
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar{
+   background-color: #fff;  height: 90px ;
+   box-shadow: none;
+   position: fixed;
+   z-index: 1;
+padding: 0;
+   width: 90%;
+}
+
+
+.nav-item{
+    color: #000!important;
+    font-size: 14px;
+    font-weight: 600;
+    vertical-align: middle;
+    padding: 2px 16px 0 16px;
+}
+._active{
+    text-decoration: underline red;
+}
+.nav-item:hover{
+    text-decoration: underline red;
+
+}
+/* ********* HEADER SECTION ************** */
+.header-section{
+  padding-top: 100px;
+}
+.title {
+  font-size: 60px;
+  letter-spacing: 1;
+  display: block;
+  line-height: 78px;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+}
+
+.sub-title {
+  display: block;
+  font-size: 60px;
+  letter-spacing: 1;
+  line-height: 78px;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.description {
+  display: block;
+  font-size: 30px;
+  line-height: 49.8px;
+  color: #272727;
+  font-family: 'Lato', sans-serif;
+font-weight: 400;
+}
+
+.button {
+  border: none;
+  background-color: #f06781;
+  color: #fff;
+  /* height: 54px; */
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 50px;
+  padding: 15px 28px 15px 28px;
+  letter-spacing: 2px;
+}
+
+.paper {
+  box-shadow: 4px 5px 20px rgba(0, 0, 0, .4);
+  /* height: 100%; */
+  width: 100%;
+  padding: 5%;
+}
+
+.normal-text {
+  font-size: 18px;
+  line-height: 23.4px;
+  display: block;
+  font-weight: 400;
+  letter-spacing: 1;
+}
+
+.question{
+    font-size: 18px;
+  line-height: 23.4px;
+  display: block;
+  font-weight: 900;
+  letter-spacing: 1;
+}
+.data-input{
+  border: 1px solid #e3e3e3;
+  width: 141px;
+  height: 38px;
+  margin-top: 5px;
+}
+.card-sub-text{
+  font-size: 24px;
+  font-weight: 700;
+  padding: 10px 0 6px 0;
+}
+
+h3 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  font-weight: 400;
+}
+
+h3 span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+
+.top-scroll-btn{
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  height: 45px;
+  width: 45px;
+  background-color: gray;
+}
+.popup-btn{
+    position: fixed;
+  right: 60px;
+  bottom: 10px;
+
+}
+
+/* What to do Section */
+.what-to-do{
+  padding: 5% 0;
+}
+
+.box-text {
+  font-size: 28px;
+  word-spacing: 0;
+  font-style: italic;
+  color: #f06781;
+}
+
+.pruple-box-text {
+  color: #9b67f0;
+  font-size: 28px;
+  word-spacing: 0;
+  font-style: italic;
+}
+
+
+/* FAQ's Section */
+
+
+._q {
+  font-size: 18px;
+  color: #404040;
+  background-color: none !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px !important;
+  display: flex;
+  align-items: center;
+}
+._content {
+  font-size: 18px;
+  color: #272727;
+  line-height: 1.66em;
+  padding-bottom: 20px;
+}
+.toogle_icon {
+  color: rgb(184, 180, 180);
+  /* font-size: 10px !important; */
+  margin-right: 10px;
+}
+
+/* Client Section */
+.client-section{
+  padding: 5% 0;
+
+}
+
+.logo-box{
+  height: 220px;
+}
+.logo-box img {
+  vertical-align: top;
+}
+/* Calendly Section */
+.calendly-section {
+  text-align: center;
+  padding: 5% 0;
+}
+.calendly-section-title {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 39px;
+}
+
+
+@media only screen and (max-width: 600px) {
+.title {
+  font-size: 50px;
+}
+
+.sub-title {
+  display: block;
+  font-size: 50px;
+  letter-spacing: 1;
+  line-height: 78px;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.what-to-do{
+  text-align: center;
+}
+h3{
+  font-size: 16px;
+}
+}

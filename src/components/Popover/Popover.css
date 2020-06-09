@@ -1,0 +1,36 @@
+
+.popup-body{
+    text-align: center;
+    padding: 5%;
+    background-color: #E8E8E8;
+    color: #000;
+    z-index: 1;
+    min-width: 280px;
+}
+
+
+.heading{
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.text{
+    font-size: 16px;
+    display: block;
+}
+
+.input-text {
+ height: 41px;
+    width: 100%;
+    border: none;
+    margin-top: 5px;
+}
+
+
+textarea {
+ min-height: 100px;
+    width: 100%;
+    border: none;
+    margin-top: 5px;
+}
